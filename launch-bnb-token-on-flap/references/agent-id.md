@@ -118,7 +118,7 @@ not supported.
 
 | Example          | Token                                        | Agent ID collection                          | `nftWhitelisted` at check | Note                                                                                                                                        |
 |------------------|----------------------------------------------|----------------------------------------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Agent ID case    | `0x3c6eA125F1dDA90215176075b777945aE9217777` | `0xB29Ff3126A9794df8AC02c6610e36942a14f308F` | No                        | Collection is open source and has a public `mint()`; new launches with it currently need a tester, or the collection must be re-whitelisted |
+| Agent ID case    | `0x3c6eA125F1dDA90215176075b777945aE9217777` | `0xB29Ff3126A9794df8AC02c6610e36942a14f308F` | No                        | Collection is open source and exposes a public `mint(address to)`; new launches with it currently need a tester, or the collection must be re-whitelisted |
 | Binance Agent ID | `0x4131Cae06908e7D874cBA44004d8803045367777` | `0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F` | Yes                       | `0x60B9...022F` is the Binance Agent ID collection                                                                                          |
 
 Both examples return `200` bps from `maxBuyPerOrigin`. The first token keeps working even
